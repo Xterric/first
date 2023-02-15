@@ -1,0 +1,9 @@
+import matplotlib.pyplot as plt
+time = [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+s = []
+for t in time:
+    s_ = 7 - 2 * t + t**2
+    s.append(s_)
+plt.plot(time, s, '-*', color='green')
+plt.grid()
+plt.show()
